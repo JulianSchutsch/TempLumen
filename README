@@ -6,9 +6,9 @@ Lumen is (or will be someday) a GUI toolkit for Ada.
 
 It is written entirely in Ada (with a few insignificant exceptions,
 like in the Linux joystick code, no direct calling of ioctl from Ada
-yet), based on OpenGL and thus expected to be portable across OS's
-once somebody steps up and writes the low-level portions for
-MS-Windows and OS-X.
+yet), based on OpenGL and thus portable between Unix/X11 and MS-Windows/Win32.
+It is expected to be portable to Macs once somebody steps up and writes
+the low-level portions for OS-X.
 
 The root of the documentation source is "doc/index.markdown".  The
 formatted docs should be available here:
